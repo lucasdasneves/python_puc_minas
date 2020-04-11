@@ -1,0 +1,2 @@
+materiais = ['caneta', 'caderno', 'livro', 'lapis']
+print(materiais)
