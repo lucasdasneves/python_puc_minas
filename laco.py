@@ -9,4 +9,15 @@ for material in materiais :
     print(material.title())
     print(len(materiais))
 
-# for makes variable "material" write each element from the list per time
+# "for" makes variable "material" write each element from the list per time
+
+#numeric lists. In python we use Range to generate number in "for"
+
+for valor in range(1,5):
+    print(valor)
+
+numeros = list(range(1,6))
+print(numeros)
+
+for numeros in range(1,7):
+    print(numeros)
