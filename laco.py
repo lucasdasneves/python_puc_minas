@@ -21,3 +21,24 @@ print(numeros)
 
 for numeros in range(1,7):
     print(numeros)
+
+quadrados = []
+for valor in range(1,11):
+    quadrado = valor ** 2
+    quadrados.append(quadrado)
+print(quadrados)
+#square os a list numbers
+
+digitos = [1,2,3,4,5,6,7,8,9,0]
+print(min(digitos))
+print(max(digitos))
+print(sum(digitos))
+# stats basics
+
+materiais = ['caneta','caderno','livro','e-book']
+print(materiais[0:4])
+# manipulating some list contents
+
+materiais = ['caneta','caderno','livro','e-book','etc']
+print(materiais[2:])
+# manipulating some list contents
