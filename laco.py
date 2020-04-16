@@ -42,3 +42,20 @@ print(materiais[0:4])
 materiais = ['caneta','caderno','livro','e-book','etc']
 print(materiais[2:])
 # manipulating some list contents
+
+materiais = ['caneta','caderno','livro','e-book']
+objetos = materiais[1:3]
+print(materiais)
+print(objetos)
+
+materiais = [1,2,3,4]
+objetos = materiais
+objetos.append(5)
+print(materiais)
+print(objetos)
+
+meteriais = [1,2,3,4]
+objetos = materiais[:]
+objetos.append(5)
+print(materiais)
+print(objetos)
