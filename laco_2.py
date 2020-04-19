@@ -1,5 +1,2 @@
-materiais = [1,2,3,4]
-objetos = materiais[:]
-objetos.append(5)
-print(materiais)
-print(objetos)
+dictt = {"Ads": 123, "Red": 424, "frt": 9129}
+print(dictt)
