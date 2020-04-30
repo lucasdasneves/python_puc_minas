@@ -1,4 +1,4 @@
-#reading files in python
+#reading external files with python
 
 file = open("pessoas.txt","r")
 for row in file:
