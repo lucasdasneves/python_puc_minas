@@ -1,5 +1,6 @@
 #Exercise1
 
-i = int(input())
+i = input()
 for numb in i:
-    print(numb) 
+    print(numb)
+print(sum(i))
