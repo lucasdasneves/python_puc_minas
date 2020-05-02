@@ -16,3 +16,5 @@ for i in range(1,11):
     num = int(input())
     soma = soma + num
 print(soma)
+
+#eu não sei fazer essa tarefa
